@@ -11,12 +11,14 @@ body{
 #card{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 200px;
-    height: 550px;
+    height: 423px;
+    padding: 20px;
     background-color: hsl(216, 50%, 16%);
     gap: 10px;
+    border-radius: 10px;
 }
 .card-img{
     background-image: url(../images/image-equilibrium.jpg);
