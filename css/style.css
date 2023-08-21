@@ -14,6 +14,7 @@ body{
     align-items: center;
     width: 200px;
     height: 550px;
+    background-color: hsl(216, 50%, 16%);
 }
 .card-img{
     background-image: url(../images/image-equilibrium.jpg);
