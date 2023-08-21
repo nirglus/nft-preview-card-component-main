@@ -11,3 +11,9 @@ body{
     display: flex;
     flex-direction: column;
 }
+.card-img{
+    background-image: url(../images/image-equilibrium.jpg);
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+}
