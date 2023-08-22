@@ -25,8 +25,7 @@ body{
     width: 200px;
     height: 200px;
     background-size: contain;
-    border-radius: 5px;
-    
+    border-radius: 5px; 
 }
 .eye{
     display: flex;
@@ -72,6 +71,9 @@ small{
     display: flex;
     align-items: center;
     gap: 4px;
+}
+.daysLeft{
+    font-size: 11px;
 }
 .eth img, .daysLeft img{
     height:3px;
