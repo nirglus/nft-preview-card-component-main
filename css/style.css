@@ -32,6 +32,7 @@ h1{
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 0;
+    transition: 1s;
 }
 p{
     color: hsla(215, 51%, 70%, 0.6);
@@ -43,21 +44,14 @@ p{
 small{
     color: hsla(215, 51%, 70%, 0.6);
 }
-.eth{
-    color:hsl(178, 100%, 50%);
-}
-.name{
-    color: rgba(255 ,255 ,255, 0.8);
-}
-.border-line{
-    border: solid 0.5px hsl(215, 32%, 27%);
-    width: 200px;
-}
 .priceAndDays{
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 11px;
+}
+.eth{
+    color:hsl(178, 100%, 50%);
 }
 .eth, .daysLeft{
     display: flex;
@@ -67,6 +61,10 @@ small{
 .eth img, .daysLeft img{
     height:3px;
     height: 11px;
+}
+.border-line{
+    border: solid 0.5px hsl(215, 32%, 27%);
+    width: 200px;
 }
 .card-bottom{
     display: flex;
@@ -83,4 +81,8 @@ small{
     color: hsla(215, 51%, 70%, 0.6);
     display: flex;
     gap: 4px;
+}
+.name{
+    color: rgba(255 ,255 ,255, 0.8);
+    transition: 1s;
 }
