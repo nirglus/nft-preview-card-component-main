@@ -29,20 +29,22 @@ body{
 h1{
     color: #fff;
     font-size: 15px;
+    font-weight: 400;
 }
 p{
-    color:hsl(215, 51%, 70%);
+    color: hsla(215, 51%, 70%, 0.6);
     font-size: 13px;
+    font-weight: 300;
     margin:0;
 }
 small{
-    color:hsl(215, 51%, 70%);
+    color: hsla(215, 51%, 70%, 0.6);
 }
 .eth{
     color:hsl(178, 100%, 50%);
 }
 .name{
-    color: #fff;
+    color: rgba(255 ,255 ,255, 0.8);
 }
 .border-line{
     border: solid 1px hsl(215, 32%, 27%);
@@ -75,7 +77,7 @@ small{
     border-radius: 50%;
 }
 .createOf{
-    color:hsl(215, 51%, 70%);
+    color: hsla(215, 51%, 70%, 0.6);
     display: flex;
     gap: 4px;
 }
