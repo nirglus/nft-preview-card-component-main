@@ -26,13 +26,28 @@ body{
     height: 200px;
     background-size: contain;
     border-radius: 5px;
+    
+}
+.eye{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(0, 255, 247, 0.6);
+    opacity: 0;
+    transition: 0.5s
+}
+.eye img{
+    width:40px;
 }
 h1{
     color: #fff;
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 0;
-    transition: 1s;
+    transition: 0.5s;
 }
 p{
     color: hsla(215, 51%, 70%, 0.6);
@@ -84,5 +99,13 @@ small{
 }
 .name{
     color: rgba(255 ,255 ,255, 0.8);
-    transition: 1s;
+    transition: 0.5s;
+}
+h1:hover, .name:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.eye:hover{
+    opacity:1;
+    cursor: pointer;
 }
