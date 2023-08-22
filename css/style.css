@@ -68,7 +68,8 @@ small{
     font-size: 11px;
 }
 .eth{
-    color:hsl(178, 100%, 50%);
+    color:hsl(178, 100%, 50%, 0.9);
+    font-weight: 600;
 }
 .eth, .daysLeft{
     display: flex;
