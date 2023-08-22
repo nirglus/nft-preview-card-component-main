@@ -61,3 +61,12 @@ small{
     align-items: center;
     font-size: 11px;
 }
+.eth, .daysLeft{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.eth img, .daysLeft img{
+    height:3px;
+    height: 11px;
+}
