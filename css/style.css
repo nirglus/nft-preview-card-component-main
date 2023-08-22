@@ -52,10 +52,11 @@ h1{
 }
 p{
     color: hsla(215, 51%, 70%, 0.6);
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 300;
     margin-top: 0;
     margin-bottom: 4px;
+    width:210px;
 }
 small{
     color: hsla(215, 51%, 70%, 0.6);
@@ -73,9 +74,7 @@ small{
     display: flex;
     align-items: center;
     gap: 4px;
-}
-.daysLeft{
-    font-size: 11px;
+    font-size: 10px;
 }
 .eth img, .daysLeft img{
     height:3px;
@@ -113,3 +112,4 @@ h1:hover, .name:hover{
     opacity:1;
     cursor: pointer;
 }
+@media (max-width)
