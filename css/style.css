@@ -14,7 +14,7 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     width: 200px;
-    height: 375px;
+    height: 358px;
     padding: 15px;
     background-color: hsl(216, 50%, 16%);
     gap: 10px;
@@ -30,12 +30,14 @@ h1{
     color: #fff;
     font-size: 15px;
     font-weight: 400;
+    margin-bottom: 0;
 }
 p{
     color: hsla(215, 51%, 70%, 0.6);
     font-size: 13px;
     font-weight: 300;
-    margin:0;
+    margin-top: 0;
+    margin-bottom: 4px;
 }
 small{
     color: hsla(215, 51%, 70%, 0.6);
@@ -47,8 +49,8 @@ small{
     color: rgba(255 ,255 ,255, 0.8);
 }
 .border-line{
-    border: solid 1px hsl(215, 32%, 27%);
-    width: 196px;
+    border: solid 0.5px hsl(215, 32%, 27%);
+    width: 200px;
 }
 .priceAndDays{
     display: flex;
