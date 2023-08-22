@@ -40,14 +40,6 @@ small{
 .eth{
     color:hsl(178, 100%, 50%);
 }
-.createOf{
-    color:hsl(215, 51%, 70%);
-}
-.createOf img{
-    width: 20px;
-    border: solid 1px #fff;
-    border-radius: 50%;
-}
 .name{
     color: #fff;
 }
@@ -69,4 +61,20 @@ small{
 .eth img, .daysLeft img{
     height:3px;
     height: 11px;
+}
+.card-bottom{
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    gap: 8px;
+}
+.card-bottom img{
+    width: 20px;
+    border: solid 1px #fff;
+    border-radius: 50%;
+}
+.createOf{
+    color:hsl(215, 51%, 70%);
+    display: flex;
+    gap: 4px;
 }
